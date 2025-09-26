@@ -5,61 +5,115 @@ body {
   padding: 20px;
   line-height: 1.6;
 }
+
+/* Заголовки */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 1.5em 0 0.7em;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 1.2em 0 0.5em;
+}
+
+/* Абзацы */
+p {
+  margin-bottom: 1em;
+}
+
+/* Списки */
+ul {
+  margin: 0 0 1em 1.5em;
+  list-style: disc;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+/* Шапка */
 .title {
   font-size: 2rem;
   color: #0b2545;
   margin-bottom: 0.5rem;
 }
+
 #site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.25rem;
 }
+
+/* Навигация */
 .main-nav .nav-link {
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 6px;
   color: #4a4a4a;
 }
+
 .main-nav .nav-link:hover,
-a.nav-link:hover {
+.nav-link:hover {
   color: #fff;
   background: #4a90e2;
   text-decoration: none;
 }
+
+/* Галерея */
 .gallery h2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 .thumb {
   width: 30%;
   margin: 0 1% 1rem 0;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
+
 .left {
   float: left;
 }
+
 .clear {
   clear: both;
   content: "";
   display: block;
   height: 0;
 }
+
 .caption {
   font-size: 0.9rem;
   color: #555;
 }
+
+/* Факты */
 .facts ul {
-  margin-left: 1.1rem;
+  list-style: square;
+  margin-left: 1.3rem;
 }
+
+/* Подвал */
 #site-footer {
   margin-top: 2rem;
   padding-top: 1rem;
   border-top: 1px solid rgba(0,0,0,0.06);
   color: #666;
   font-size: 0.9rem;
+  text-align: center;
 }
+
+/* Адаптив */
 @media (max-width: 700px) {
   .thumb {
     width: 100%;
