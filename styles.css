@@ -1,0 +1,69 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #222;
+  background: linear-gradient(180deg, #f6f7fb 0%, #eef0f6 100%);
+  padding: 20px;
+  line-height: 1.6;
+}
+.title {
+  font-size: 2rem;
+  color: #0b2545;
+  margin-bottom: 0.5rem;
+}
+#site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.main-nav .nav-link {
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  color: #4a4a4a;
+}
+.main-nav .nav-link:hover,
+a.nav-link:hover {
+  color: #fff;
+  background: #4a90e2;
+  text-decoration: none;
+}
+.gallery h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.thumb {
+  width: 30%;
+  margin: 0 1% 1rem 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.left {
+  float: left;
+}
+.clear {
+  clear: both;
+  content: "";
+  display: block;
+  height: 0;
+}
+.caption {
+  font-size: 0.9rem;
+  color: #555;
+}
+.facts ul {
+  margin-left: 1.1rem;
+}
+#site-footer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  color: #666;
+  font-size: 0.9rem;
+}
+@media (max-width: 700px) {
+  .thumb {
+    width: 100%;
+    float: none;
+    margin-bottom: 1rem;
+  }
+}
